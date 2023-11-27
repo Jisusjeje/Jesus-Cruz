@@ -1,0 +1,127 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+  }
+  
+  .contenedor69 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: none;
+  }
+  
+  nav a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  #menu {
+    display: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  #menu-abrir {
+    display: inline-block;
+  }
+  
+  #menu-cerrar {
+    display: none;
+  }
+  
+  /* Animación del icono de menú */
+  #menu-abrir:hover {
+    background-color: #555;
+  }
+  
+  /* Estilo de la sección de características */
+  .contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .imagen-about-us {
+    max-width: 100%;
+  }
+  
+  .contenido-textos {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Estilo de la sección de miembros y colaboradores */
+  .galeria-port {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .imagen-port {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hover-galeria {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .hover-galeria:hover {
+    opacity: 1;
+  }
+  
+  .hover-galeria p {
+    margin: 0;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Otros estilos... */
+  
+  
